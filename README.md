@@ -48,7 +48,7 @@ unknown: A type that accepts any value but restricts operations until the type i
 Example
 let u: unknown = 10;
 if (typeof u === "number") {
-console.log(u.toFixed(2)); // Safe after type check
+console.log(u.toFixed(2));
 }
 
 never: A type that represents values that never produce a result or never successfully complete, such as functions that always throw errors or run infinitely without returning.
